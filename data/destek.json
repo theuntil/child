@@ -1,0 +1,92 @@
+[
+  {
+    "id": 2,
+    "slug": "ankara-universitesi",
+    "name": "Ankara University",
+    "type": "University",
+    "website": "https://www.ankara.edu.tr/",
+    "logoUrl": "https://www.ankara.edu.tr/assets/images/logo.png",
+    "supportDocumentImage": "/documents/ankara-universitesi.jpg",
+    "description": "Ankara University is among our supporting institutions."
+  },
+  {
+    "id": 1,
+    "slug": "ankara-valiligi",
+    "name": "Ankara Governorship",
+    "type": "Governorship",
+    "website": "https://www.ankara.gov.tr/",
+    "logoUrl": "https://images.seeklogo.com/logo-png/43/2/ankara-valiligi-yeni-logo-png_seeklogo-431339.png",
+    "supportDocumentImage": "/documents/ankara-valiligi.jpg",
+    "description": "It is one of our institutional partners supported by the Ankara Governorship."
+  },
+  {
+    "id": 8,
+    "slug": "adiyaman-valiligi",
+    "name": "Adıyaman Governorship",
+    "type": "Governorship",
+    "website": "https://www.adiyaman.gov.tr/",
+    "logoUrl": "https://supabase.rovand.cloud/storage/v1/object/public/media//adiyaman-valiligi-seeklogo.png",
+    "supportDocumentImage": "/documents/adiyaman-valiligi.jpg",
+    "description": "Support partnership provided by the Adıyaman Governorship."
+  },
+  {
+    "id": 3,
+    "slug": "ordu-universitesi",
+    "name": "Ordu University",
+    "type": "University",
+    "website": "https://odu.edu.tr/",
+    "logoUrl": "https://odu.edu.tr/dist_theme/images/oduk.png",
+    "supportDocumentImage": "/documents/ordu-universitesi.jpg",
+    "description": "Ordu University is among our supporting institutions."
+  },
+  {
+    "id": 4,
+    "slug": "bulent-ecevit-universitesi",
+    "name": "Bülent Ecevit University",
+    "type": "University",
+    "website": "https://beun.edu.tr/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/tr/9/92/B%C3%BClent_Ecevit_%C3%9Cniversitesi_logo.png",
+    "supportDocumentImage": "/documents/bulent-ecevit-universitesi.jpg",
+    "description": "Our partner works supported by Bülent Ecevit University."
+  },
+  {
+    "id": 5,
+    "slug": "karabuk-universitesi",
+    "name": "Karabük University",
+    "type": "University",
+    "website": "https://www.karabuk.edu.tr/",
+    "logoUrl": "https://www.karabuk.edu.tr/belgeler/logo_pack/AmblemStyledBig_noBg.png",
+    "supportDocumentImage": "/documents/karabuk-universitesi.jpg",
+    "description": "Karabük University is among our supporters."
+  },
+  {
+    "id": 6,
+    "slug": "konya-valiligi",
+    "name": "Konya Governorship",
+    "type": "Governorship",
+    "website": "https://www.konya.gov.tr/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/tr/8/83/T%C3%BCrkiye_Cumhuriyeti_Konya_Valili%C4%9Fi_Kurumsal_Logosu.png",
+    "supportDocumentImage": "/documents/konya-valiligi.jpg",
+    "description": "Konya Governorship is one of our support partners."
+  },
+  {
+    "id": 7,
+    "slug": "yalova-valiligi",
+    "name": "Yalova Governorship",
+    "type": "Governorship",
+    "website": "https://www.yalova.gov.tr/",
+    "logoUrl": "https://supabase.rovand.cloud/storage/v1/object/public/media//Screenshot_2026-05-06_at_21.58.27-removebg-preview.png",
+    "supportDocumentImage": "/documents/yalova-valiligi.jpg",
+    "description": "Institutional support provided by the Yalova Governorship."
+  },
+  {
+    "id": 9,
+    "slug": "van-valiligi",
+    "name": "Van Governorship",
+    "type": "Governorship",
+    "website": "https://www.van.gov.tr/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Van_B%C3%BCy%C3%BCk%C5%9Fehir_Belediyesi_logo.svg/960px-Van_B%C3%BCy%C3%BCk%C5%9Fehir_Belediyesi_logo.svg.png",
+    "supportDocumentImage": "/documents/van.png",
+    "description": "Van Governorship is among our supporting institutions."
+  }
+]

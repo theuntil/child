@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "slug": "cocuk",
+    "title": "We Made the Dreams of Our Children with Special Needs Come True",
+    "description": "Between 2010 and 2016, within the scope of the Children's Tribune Project and in partnership with SSAUMDER, under the leadership of Hakan Coşkun, we brought together children with special needs and the footballers they admire. Starting with Beşiktaş JK, we visited many clubs competing in the Super League at the time and turned our children's dreams into reality. Through this project, children collected unforgettable memories while finding the opportunity to participate more strongly in social life through the unifying power of sport.",
+    "year": 2015,
+    "date": "2010-2016",
+    "location": "Turkey",
+    "category": "Social Responsibility",
+    "media": [
+      { "type": "image", "url": "/etkinlikler/1.png", "caption": "Beşiktaş Nevzat Demir Facilities" },
+      { "type": "image", "url": "/etkinlikler/2.png", "caption": "Beşiktaş Nevzat Demir Facilities" },
+      { "type": "image", "url": "/etkinlikler/3.png", "caption": "Beşiktaş Nevzat Demir Facilities" },
+      { "type": "image", "url": "/etkinlikler/4.png", "caption": "Beşiktaş Nevzat Demir Facilities" },
+      { "type": "image", "url": "/etkinlikler/5.png", "caption": "Fenerbahçe Facilities / Footballer Alex De Souza and Our Children" },
+      { "type": "image", "url": "/etkinlikler/6.png", "caption": "Fenerbahçe Facilities / Footballer Alex De Souza and Our Children" },
+      { "type": "image", "url": "/etkinlikler/7.png", "caption": "Fenerbahçe Facilities / Footballer Alex De Souza and Our Children" },
+      { "type": "image", "url": "/etkinlikler/8.png", "caption": "Fenerbahçe Facilities / Footballer Alex De Souza and Our Children" },
+      { "type": "image", "url": "/etkinlikler/14.png", "caption": "Eskişehirspor Facilities" }
+    ],
+    "coverImage": "/etkinlikler/2.png",
+    "attendees": 320,
+    "tags": ["Beşiktaş", "Fenerbahçe", "Eskişehirspor", "Alex"]
+  },
+  {
+    "id": "2",
+    "slug": "2022-katar",
+    "title": "We Were at the 2022 Qatar World Cup for Our Children",
+    "description": "Within the scope of the 2022 FIFA Qatar World Cup, we had the opportunity to introduce our project to tens of thousands of people by attending in Qatar together with our children. We represented our social responsibility project on a global scale by meeting with visitors from different countries around the world. Throughout the event, we organized special activities for our children, ensured they had unforgettable experiences, and successfully represented our country on an international platform. \n\nMany influencers and content creators, led by Bartu Dev, also joined us at the events to support the project. Additionally, Turkey's Ambassador to Qatar received us at his office and exchanged views about our project. This process was an important step that strengthened our children's participation in social life and increased the international visibility of our project.",
+    "year": 2022,
+    "date": "November 2022",
+    "location": "Doha, Qatar",
+    "category": "International Project",
+    "media": [
+      { "type": "image", "url": "/etkinlikler/pankart.jpeg", "caption": "A commemorative photo taken with the influencers who contributed to the project in Doha." },
+      { "type": "image", "url": "/etkinlikler/goksu.jpg", "caption": "Our Ambassador Dr. M. Mustafa Göksu and our Chairman of the Board Mr. Hakan COŞKUN" },
+      { "type": "image", "url": "/etkinlikler/katar.png", "caption": "Social Media Posts from the Turkish Embassy." },
+      { "type": "video", "url": "/etkinlikler/katar.mp4", "thumbnail": "/etkinlikler/AllJ.png", "caption": "Our project gained worldwide attention thanks to our interview on Al Jazeera, reaching over 30 million views and attracting great interest on a global scale." },
+      { "type": "video", "url": "/etkinlikler/BRTV_Cocuk_Tribunu_Projesi_Roportaj.mp4", "thumbnail": "/etkinlikler/123.png", "caption": "Mr. Hakan Coşkun on BRTV screens after the 2022 Qatar World Cup." },
+      { "type": "video", "url": "/etkinlikler/BRTV_ROPORTAJ.mp4", "thumbnail": "/etkinlikler/1234.png", "caption": "Mr. Hakan Coşkun on BRTV screens after the 2022 Qatar World Cup." },
+      { "type": "image", "url": "/etkinlikler/KATAR_DUNYA_KUPASİ.PNG", "caption": "" }
+    ],
+    "coverImage": "/etkinlikler/2022-katar/1.jpg",
+    "attendees": 10000,
+    "tags": ["qatar", "world cup", "social responsibility", "children", "international"]
+  },
+  {
+    "id": "3",
+    "slug": "oktay-saral-ziyaret",
+    "title": "Visit to Presidential Chief Advisor Oktay Saral",
+    "description": "Within the scope of the Children's Tribune and SSAUMDER collaboration, we visited the Presidential Chief Advisor at his office to exchange views on our project activities and social responsibility efforts. During the visit, detailed information was shared about our social awareness projects carried out for children, the unifying power of sport, and our activities aimed at young people.\n\nThe SSAUMDER Chairman of the Board and Sports Advisor also participated in the visit. During the meeting, the importance of social responsibility projects for society was emphasized, and evaluations were made on efforts supporting our children's stronger participation in social life.\n\nThis meaningful gathering was one of the important steps contributing to the Children's Tribune project reaching wider audiences among public institutions and social stakeholders.",
+    "year": 2019,
+    "date": "March 22, 2019",
+    "location": "Ankara, Turkey",
+    "category": "Official Visit",
+    "media": [
+      {
+        "type": "image",
+        "url": "/etkinlikler/Cocuk_Tribunu_Ziyaret.jpg",
+        "caption": "Visit to Presidential Chief Advisor Oktay Saral"
+      }
+    ],
+    "coverImage": "/etkinlikler/Cocuk_Tribunu_Ziyaret.jpg",
+    "attendees": 5,
+    "tags": ["ssaumder", "children's tribune", "official visit", "social responsibility", "ankara"]
+  },
+  {
+    "id": "4",
+    "slug": "okan-bayulgen-cocuk-tribunu",
+    "title": "Okan Bayülgen's Support for the Children's Tribune.",
+    "description": "In 2014, he published a support video for our Children's Tribune project. In the video, the importance of social responsibility work aimed at children and the impact such projects create in society were highlighted. We thank Mr. Okan Bayülgen for his support.",
+    "year": 2014,
+    "date": "2014",
+    "location": "Turkey",
+    "category": "Support",
+    "media": [
+      {
+        "type": "video",
+        "url": "/etkinlikler/EK-9 Okan Bayulgen.mp4",
+        "thumbnail": "/etkinlikler/okan_bayulgen.jpg",
+        "caption": "Okan Bayülgen support video"
+      }
+    ],
+    "coverImage": "/etkinlikler/okan_bayulgen.jpg",
+    "attendees": 38,
+    "tags": ["children's tribune", "support", "social responsibility"]
+  },
+  {
+    "id": "5",
+    "slug": "hulya-kocyigit-cocuk-tribunu",
+    "title": "Support from Hülya Koçyiğit.",
+    "description": "We thank Ms. Hülya Koçyiğit for her support.",
+    "year": 2014,
+    "date": "2014",
+    "location": "Turkey",
+    "category": "Support Video",
+    "media": [
+      {
+        "type": "video",
+        "url": "/etkinlikler/EK-4.mp4",
+        "thumbnail": "/etkinlikler/hulya-kocyigit.png",
+        "caption": "Hülya Koçyiğit support video"
+      }
+    ],
+    "coverImage": "/etkinlikler/hulya-kocyigit.png",
+    "attendees": 0,
+    "tags": ["children's tribune", "support"]
+  }
+]
