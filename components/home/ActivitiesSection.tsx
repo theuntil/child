@@ -58,7 +58,7 @@ export default function ActivitiesSection() {
         viewport={{ once: true }}
         className="text-xl md:text-3xl font-semibold text-center mb-14 text-neutral-900 dark:text-white"
       >
-        Proje Faaliyetleri
+      Project
       </motion.h2>
 
       {/* FLOW */}

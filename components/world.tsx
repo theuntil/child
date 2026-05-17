@@ -99,15 +99,16 @@ export default function WorldCupBanner() {
         {/* HEADER */}
         <div className="text-center mb-16">
           <span className="text-[11px] tracking-[0.35em] uppercase text-neutral-500">
-            Uluslararası Temsil
+            International Representation
           </span>
 
           <h2 className="mt-4 text-4xl sm:text-5xl font-serif text-white">
-            Dünya Kupası Yolculuğu
+            World Cup Journey
           </h2>
 
           <p className="mt-5 max-w-2xl mx-auto text-neutral-400 text-sm leading-relaxed">
-            Çocuk Tribünü’nün FIFA Dünya Kupası süreçlerinde uluslararası temsili ve saha deneyimleri.
+            The Children&apos;s Tribune&apos;s international representation and on-the-ground
+            experiences across FIFA World Cup events.
           </p>
         </div>
 
@@ -121,9 +122,9 @@ export default function WorldCupBanner() {
 
             <TimelineCard
               image={QATAR_IMG}
-              year="Katar 2022"
-              title="Katar’da Türkiye’yi Temsil Ettik"
-              desc="FIFA Dünya Kupası sürecinde Katar’da yer aldık ve uluslararası platformlarda Türkiye’yi temsil ettik."
+              year="Qatar 2022"
+              title="We Represented Turkey in Qatar"
+              desc="We took part in Qatar during the FIFA World Cup and represented Turkey on international platforms."
               side="left"
               visible={visible}
             />
@@ -131,8 +132,8 @@ export default function WorldCupBanner() {
             <TimelineCard
               image={USA_IMG}
               year="USA 2026"
-              title="2026 İçin Hazırlıklar Devam Ediyor"
-              desc="Amerika, Kanada ve Meksika’da düzenlenecek Dünya Kupası için hazırlık süreci devam ediyor."
+              title="Preparations Are Underway for 2026"
+              desc="The preparation process is ongoing for the World Cup to be held in the United States, Canada and Mexico."
               side="right"
               visible={visible}
             />
@@ -145,7 +146,7 @@ export default function WorldCupBanner() {
           <div className="flex-1 h-px bg-neutral-800" />
 
           <span className="text-[10px] tracking-[0.3em] uppercase text-neutral-500">
-            Çocuk Tribünü · FIFA Süreci
+            Children&apos;s Tribune · FIFA Process
           </span>
 
           <div className="flex-1 h-px bg-neutral-800" />

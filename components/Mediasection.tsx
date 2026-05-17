@@ -15,8 +15,8 @@ interface NewsItem {
 }
 
 interface MediaSectionProps {
-  news: NewsItem[];          // news.json'dan gelecek veri – dilersen prop olarak geç
-  maxItems?: number;         // kaç kart göstermek istediğini belirt (default: 6)
+  news: NewsItem[];          // data coming from news.json – pass as prop
+  maxItems?: number;         // how many cards to display (default: 6)
 }
 
 export default function MediaSection({ news, maxItems = 6 }: MediaSectionProps) {
@@ -26,26 +26,26 @@ export default function MediaSection({ news, maxItems = 6 }: MediaSectionProps) 
     <section className="w-full bg-neutral-50 dark:bg-black py-20 md:py-28">
       <div className="max-w-5xl mx-auto px-4">
 
-        {/* ── Başlık ── */}
+        {/* ── Header ── */}
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-12">
           <div>
             <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-widest text-neutral-400 dark:text-neutral-500 mb-4">
               <Newspaper className="w-3.5 h-3.5" />
-              Medyada Biz
+              In the Press
             </span>
             <h2 className="text-3xl md:text-5xl font-extrabold text-neutral-900 dark:text-neutral-50 leading-tight tracking-tight">
-              Basın Bizi
+              The Press
               <br />
-              <span className="text-neutral-400 dark:text-neutral-600">Yazıyor</span>
+              <span className="text-neutral-400 dark:text-neutral-600">Is Writing About Us</span>
             </h2>
           </div>
 
-          {/* Tümünü Gör butonu – büyük ekranda başlığın yanında */}
+          {/* See All button – appears beside the title on large screens */}
           <Link
-            href="/basinda-biz"
+            href="/in-the-press"
             className="hidden sm:inline-flex items-center gap-2 text-sm font-semibold text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors duration-200 group"
           >
-            Tüm haberler
+            All news
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
           </Link>
         </div>
@@ -53,7 +53,7 @@ export default function MediaSection({ news, maxItems = 6 }: MediaSectionProps) 
         {/* ── Divider ── */}
         <div className="h-px bg-neutral-200 dark:bg-neutral-800 mb-10" />
 
-        {/* ── Kart Grid ── */}
+        {/* ── Card Grid ── */}
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {items.map((item, i) => (
             <motion.div
@@ -63,10 +63,10 @@ export default function MediaSection({ news, maxItems = 6 }: MediaSectionProps) 
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.4, delay: i * 0.07, ease: "easeOut" }}
             >
-              <Link href={`/basinda-biz/${item.id}`} className="group block h-full">
-                <div className="h-full flex flex-col border border-neutral-200 dark:border-neutral-800  overflow-hidden bg-white dark:bg-neutral-900 hover:border-neutral-400 dark:hover:border-neutral-600 transition-all duration-300 hover:shadow-lg dark:hover:shadow-black/40">
+              <Link href={`/in-the-press/${item.id}`} className="group block h-full">
+                <div className="h-full flex flex-col border border-neutral-200 dark:border-neutral-800 overflow-hidden bg-white dark:bg-neutral-900 hover:border-neutral-400 dark:hover:border-neutral-600 transition-all duration-300 hover:shadow-lg dark:hover:shadow-black/40">
 
-                  {/* Logo alanı */}
+                  {/* Logo area */}
                   <div className="flex items-center gap-3 px-5 py-4 border-b border-neutral-100 dark:border-neutral-800">
                     <div className="relative w-8 h-8 flex-shrink-0">
                       <Image
@@ -83,7 +83,7 @@ export default function MediaSection({ news, maxItems = 6 }: MediaSectionProps) 
                     <ArrowUpRight className="ml-auto w-4 h-4 flex-shrink-0 text-neutral-300 dark:text-neutral-600 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 transition-colors duration-200" />
                   </div>
 
-                  {/* İçerik */}
+                  {/* Content */}
                   <div className="flex flex-col flex-1 px-5 py-5 gap-3">
                     <h3 className="text-base font-bold leading-snug text-neutral-900 dark:text-neutral-50 group-hover:text-neutral-600 dark:group-hover:text-neutral-300 transition-colors duration-200 line-clamp-2">
                       {item.title}
@@ -92,7 +92,7 @@ export default function MediaSection({ news, maxItems = 6 }: MediaSectionProps) 
                       {item.description}
                     </p>
                     <span className="text-xs font-medium text-neutral-400 dark:text-neutral-500 mt-auto pt-2 border-t border-neutral-100 dark:border-neutral-800">
-                      Haberi oku →
+                      Read article →
                     </span>
                   </div>
 
@@ -102,13 +102,13 @@ export default function MediaSection({ news, maxItems = 6 }: MediaSectionProps) 
           ))}
         </div>
 
-        {/* ── Tümünü Gör – mobilde alta düşer ── */}
+        {/* ── See All – drops below on mobile ── */}
         <div className="mt-10 flex sm:hidden">
           <Link
-            href="/basinda-biz"
+            href="/in-the-press"
             className="inline-flex items-center gap-2 text-sm font-semibold text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors duration-200 group"
           >
-            Tüm haberler
+            All news
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
           </Link>
         </div>
@@ -116,4 +116,4 @@ export default function MediaSection({ news, maxItems = 6 }: MediaSectionProps) 
       </div>
     </section>
   );
-}
+} 
