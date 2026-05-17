@@ -260,7 +260,7 @@ export default function LogolarPage() {
             href="mailto:info@cocuktribunu.com"
             className="underline underline-offset-2 hover:text-black dark:hover:text-white transition-colors"
           >
-            contact us
+            contactus
           </a>
           .
         </motion.p>
