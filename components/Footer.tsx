@@ -175,6 +175,7 @@ export default function Footer() {
                     href="mailto:iletisim@cocuktribunu.com"
                     className="text-neutral-600 dark:text-neutral-400 hover:text-[#006039] dark:hover:text-[#4D96FF] transition-colors"
                   >
+                    contact@childtribune.com
                     iletisim@cocuktribunu.com
                   </a>
                 </li>
