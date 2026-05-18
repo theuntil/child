@@ -66,7 +66,7 @@ export default function HakanCoskunPage() {
             {/* Photo */}
             <div className="relative flex-shrink-0 w-40 h-40 md:w-52 md:h-52 rounded-2xl overflow-hidden border-2 border-neutral-200 dark:border-neutral-800 shadow-lg">
               <Image
-                src="/Hakan_Coskun.jpeg"
+              src="/HakanCoskun.png"
                 alt="Hakan Coşkun"
                 fill
                 className="object-cover object-top"
