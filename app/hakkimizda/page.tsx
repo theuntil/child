@@ -71,7 +71,7 @@ export default function AboutPage() {
                 {/* Photo */}
                 <div className="relative flex-shrink-0 w-36 h-36 md:w-44 md:h-44 rounded-2xl overflow-hidden border-2 border-neutral-100 dark:border-neutral-800 shadow-md">
                   <Image
-                    src="/Hakan_Coskun.jpeg"
+                    src="/HakanCoskun.png"
                     alt="Hakan Coşkun"
                     fill
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
